@@ -1,0 +1,72 @@
+/* BS cambios */
+/* .container-fluid{
+    padding:0;
+} */
+
+.bg-light{
+    background-color: #fff !important;
+}
+
+/* navbar */
+nav .logo{
+    width: 75px;
+}
+
+nav ul a:hover {
+    background-color: #0d6a21;
+    color: #fff !important;
+}
+
+nav ul{
+    margin-top: 45px;
+}
+
+/* Titulo */
+
+h2{
+    color: #0d6a21 !important;
+}
+
+/* Botones */
+.btn-primary {
+    background-color: #0d6a21;
+}
+
+.btn-primary:hover {
+    background-color: #094e18;
+}
+
+/* icons */
+.bi{
+    color:#0d6a21;
+}
+
+/* mi css */
+/* footer abajo */
+/* empujar el main hasta que no pueda más en footer */
+/* disposicion footer abajo correcto */
+html, body, .contenedor{
+    height: 100%;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
+}
+
+/* fin footer abajo */
+.logo {
+    width: px;
+}
+
+/* mis media queries*/
+/* esconde el slider*/
+@media screen and (max-width: 576px) {
+    .carousel {
+        display: none !important;
+    }
+}
